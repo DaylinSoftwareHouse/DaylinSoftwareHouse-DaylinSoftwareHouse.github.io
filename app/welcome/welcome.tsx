@@ -11,7 +11,7 @@ export function Welcome() {
           backgroundPosition: "center",
         }}
       >
-        <div className="flex flex-col items-center text-3xl font-bold bg-violet-500 p-10 text-white shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
+        <div className="flex flex-col items-center text-3xl font-bold bg-violet-700 p-10 text-white shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
           Daylin Software House
 
           {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -78,9 +78,13 @@ export function Welcome() {
 
       <div style={{ height: 45 }} />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 px-4 place-items-center gap-12">
+      <div className="text-3xl font-bold text-gray-200 max-w-100 text-center">What We Provide</div>
+
+      <div style={{ height: 45 }} />
+
+      <div className="grid grid-cols-1 md:grid-cols-2 px-4 place-items-center gap-12">
         
-        <div className="flex flex-col bg-violet-500 p-10 max-w-100 min-h-125 shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
+        <div className="flex flex-col bg-violet-700 p-10 max-w-100 min-h-125 shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
           <div className="text-2xl font-bold text-white text-center">Quality</div>
           
           <div style={{ height: 15 }} />
@@ -94,13 +98,13 @@ export function Welcome() {
           <div style={{ height: 15 }} />
         
           <div className="text-lg font-normal text-white break-words max-w-100 text-center">
-            With years our teams years of experience, we ensure that your 
+            With our teams years of experience, we ensure that your 
             Minecraft server is built to the highest standards, providing 
             a seamless and enjoyable gaming experience.
           </div>
         </div>
 
-        <div className="flex flex-col bg-violet-500 p-10 max-w-100 min-h-125 shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
+        <div className="flex flex-col bg-violet-700 p-10 max-w-100 min-h-125 shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
           <div className="text-2xl font-bold text-white text-center">Speed</div>
           
           <div style={{ height: 15 }} />
@@ -119,7 +123,49 @@ export function Welcome() {
           </div>
         </div>
 
+        <div className="flex flex-col bg-violet-700 p-10 max-w-100 min-h-125 shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
+          <div className="text-2xl font-bold text-white text-center">Affordability</div>
+          
+          <div style={{ height: 15 }} />
+        
+          <img
+            src="/code_1.png"
+            alt="Code example"
+            className="w-full max-w-xs rounded shadow-lg border-2 border-white"
+          />
+
+          <div style={{ height: 15 }} />
+        
+          <div className="text-lg font-normal text-white break-words max-w-100 text-center">
+            We offer competitive pricing for our services, ensuring that you 
+            get the best value for your money without compromising on quality.
+          </div>
+        </div>
+
+        <div className="flex flex-col bg-violet-700 p-10 max-w-100 min-h-125 shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
+          <div className="text-2xl font-bold text-white text-center">Support</div>
+          
+          <div style={{ height: 15 }} />
+        
+          <img
+            src="/code_1.png"
+            alt="Code example"
+            className="w-full max-w-xs rounded shadow-lg border-2 border-white"
+          />
+
+          <div style={{ height: 15 }} />
+        
+          <div className="text-lg font-normal text-white break-words max-w-100 text-center">
+            We provide quality ongoing support and maintenance for all our projects
+            to ensure continued reliability and quality.
+          </div>
+        </div>
+
       </div>
+
+      <div style={{ height: 45 }} />
+
+      <div className="text-sm font-normal text-gray-500 max-w-100 text-center">© 2025 Daylin Software House LLC</div>
     </main>
   );
 }
