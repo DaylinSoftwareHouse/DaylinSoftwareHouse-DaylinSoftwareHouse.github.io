@@ -1,6 +1,6 @@
 export function Welcome() {
   return (
-    <main className="flex items-center justify-center pt-16 pb-4">
+    <main className="flex flex-col items-center justify-center pt-16 pb-4">
       <div
         className="flex flex-col items-center justify-center gap-8 w-full px-4"
         style={{
@@ -74,6 +74,51 @@ export function Welcome() {
             server development, creation and maintenance.
           </div> */}
         </div>
+      </div>
+
+      <div style={{ height: 45 }} />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 px-4 place-items-center gap-12">
+        
+        <div className="flex flex-col bg-violet-500 p-10 max-w-100 min-h-125 shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
+          <div className="text-2xl font-bold text-white text-center">Quality</div>
+          
+          <div style={{ height: 15 }} />
+        
+          <img
+            src="/code_1.png"
+            alt="Code example"
+            className="w-full max-w-xs rounded shadow-lg border-2 border-white"
+          />
+
+          <div style={{ height: 15 }} />
+        
+          <div className="text-lg font-normal text-white break-words max-w-100 text-center">
+            With years our teams years of experience, we ensure that your 
+            Minecraft server is built to the highest standards, providing 
+            a seamless and enjoyable gaming experience.
+          </div>
+        </div>
+
+        <div className="flex flex-col bg-violet-500 p-10 max-w-100 min-h-125 shadow-[5px_5px_0px_0px_rgba(255,255,255,1.0)]">
+          <div className="text-2xl font-bold text-white text-center">Speed</div>
+          
+          <div style={{ height: 15 }} />
+        
+          <img
+            src="/code_1.png"
+            alt="Code example"
+            className="w-full max-w-xs rounded shadow-lg border-2 border-white"
+          />
+
+          <div style={{ height: 15 }} />
+        
+          <div className="text-lg font-normal text-white break-words max-w-100 text-center">
+            Using our proprietary tools, we can build and modify Minecraft 
+            servers in record time, allowing you to focus on your game.
+          </div>
+        </div>
+
       </div>
     </main>
   );
