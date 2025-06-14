@@ -115,15 +115,13 @@ export function Welcome() {
           complete.
         </FeatureCard>
 
+        <FeatureCard name="Project Tavern" image="/code_1.png">
+          A work-in-progress game mode meant to push the limits of Minecraft by creating a unique game
+          based around players entering a magical world to hunt bosses, find treasure, 
+          solve puzzles, return to The Tavern with the spoils.
+        </FeatureCard>
+
       </div>
-
-      <div style={{ height: 40 }} />
-
-      <FeatureCard name="Project Tavern" image="/code_1.png">
-        A work-in-progress game mode meant to push the limits of Minecraft by creating a unique game
-        based around players entering a magical world to hunt bosses, find treasure, 
-        solve puzzles, return to The Tavern with the spoils.
-      </FeatureCard>
 
       <div style={{ height: 45 }} />
 
